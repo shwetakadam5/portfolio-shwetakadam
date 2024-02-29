@@ -54,11 +54,18 @@ Link for the website : https://shwetakadam5.github.io/portfolio-shwetakadam/
 - Click on the link Contact Me : User will be navigated to the details of contact me on the webpage.
 - Click on the link Resume : User will download a "resume" document.
 
-**Test 2** : Hovering on the navigation links will highlight the section and display appropriate text.
-- Hover on the link About Me : Hover text will display "Click to visit Search Engine Optimization"
-- Hover on the link Work : Hover text will display "Click to visit Online Reputation Management"
-- Hover on the link Contact Me : Hover text will display "Click to visit Social Media Marketing"
-- Hover on the link Resume : Hover text will display "Click to visit Social Media Marketing"
+**Test 2** : Hovering on the navigation links will highlight the sections and display appropriate texts.
+- Hover on the link About Me : Hover text will display "Click to visit About Me"
+- Hover on the link Work : Hover text will display "Click to visit Work details"
+- Hover on the link Contact Me : Hover text will display "Click to visit Contact Me details"
+- Hover on the link Resume : Hover text will display "Click to download resume"
+
+- Hover on the link 0402393645 : Hover text will display "Click to call the Contact Number 0402393645"
+- Hover on the link shwetakadam5@gmail.com : Hover text will display "Click to send email to shwetakadam5@gmail.com"
+- Hover on the link GitHub : Hover text will display "Click to navigate to the GitHub account"
+- Hover on the link Twitter : Hover text will display "Click to navigate to the Twitter account"
+- Hover on the link Spotify : Hover text will display "Click to navigate to the Spotify account"
+
 
 **Test 3** :
 - Hover on the images : Opacity of the image will change of the respective image.
