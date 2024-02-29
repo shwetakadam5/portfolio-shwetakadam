@@ -132,10 +132,8 @@ main {
 
 
 .content-container{
-    padding-left: 3rem;
-    border-left-style: ridge;
-    border-left-width: 0.8rem;
-
+    padding-left: 3rem;    
+    border-width: 0.8rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -213,4 +211,24 @@ figcaption{
    padding: 0.5rem;   
    height: 20rem;
    background:var(--light);
+  }
+
+
+  /*Styling for the contact me section*/  
+
+  .contact-contents{
+    margin:1rem;
+    padding: 3rem;
+   
+  }
+
+  .contact-contents a{
+    color: var(--dark);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;  
+
+  }
+  .contact-contents a:hover{
+    color: var(--light);
+    background-color: var(--dark); 
   }
