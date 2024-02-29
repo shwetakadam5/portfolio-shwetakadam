@@ -180,7 +180,7 @@ figcaption{
 
 
   /*Hover on the nav links will change color*/
-  .nav-headers a:hover{
+  .nav-header a:hover{
     color: #13293d;
     background-color: #fff; 
   }
