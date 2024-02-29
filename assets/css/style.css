@@ -95,6 +95,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 
 .side-header{
@@ -186,6 +187,7 @@ figcaption{
   .nav-header a:hover{
     color: var(--dark);
     background-color: var(--light); 
+    transition: all 0.5s ease-in-out;
   }
 
 
@@ -211,6 +213,7 @@ figcaption{
    padding: 0.5rem;   
    height: 20rem;
    background:var(--light);
+   transition: all 0.5s ease-in-out;
   }
 
 
@@ -231,4 +234,18 @@ figcaption{
   .contact-contents a:hover{
     color: var(--light);
     background-color: var(--dark); 
+    transition: all 0.5s ease-in-out;
+  }
+
+  .projectimage {
+    opacity: 0.3;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+
+  .workcontent-container:hover .projectimage{
+    opacity:1;
   }
