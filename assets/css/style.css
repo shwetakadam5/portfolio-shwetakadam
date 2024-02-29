@@ -1,3 +1,11 @@
+:root {
+    /* declare a variable with `--` syntax */
+    --dark: #13293d;
+    --light: #fff;
+    --body-background: gainsboro;
+  }
+
+
 * {
     box-sizing: border-box;
 
@@ -12,8 +20,8 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     margin: 0;
-    background-color: gainsboro;  
-    color: #13293d;
+    background-color: var(--body-background);
+    color: var(--dark);
 }
 
 h1,
@@ -56,8 +64,8 @@ h6 {
 .header {
     padding: 1rem;
     text-align: center;
-    background: #13293d;
-    color: #fff;
+    background: var(--dark);
+    color: var(--light);
 
     display: flex;
     justify-content: space-between;
@@ -66,7 +74,7 @@ h6 {
 }
 
 a {
-    color: #fff;
+    color: var(--light);
     text-decoration: underline;
     text-underline-offset: 0.5rem;   
     /*0.1 rem = 1 px */
@@ -77,8 +85,8 @@ a {
 .title-header {
     /*top right bottom left*/
     padding: 1rem 1rem 1rem 5rem; 
-    background-color: #fff;
-    color: #13293d;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 /* Class selector for the header navigations*/
@@ -90,11 +98,11 @@ a {
 }
 
 .side-header{
-    height: 100px;
-    width: 100px;
+    height: 10rem;
+    width: 10rem;
 }
 main {
-    padding: 50px;
+    padding: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -104,15 +112,15 @@ main {
 
 .main-container{
     display: flex;
-    padding: 20px;
+    padding: 2rem;
     
 }
 
 .side-container {
-    padding-left: 50px;   
-    padding-bottom: 50px;
-    padding-right :10px;  
-    width: 300px;
+    padding-left: 5rem;   
+    padding-bottom: 5rem;
+    padding-right : 1rem;  
+    width: 30rem;
     text-align: right;
     text-wrap: wrap;
 
@@ -123,9 +131,9 @@ main {
 
 
 .content-container{
-    padding-left: 30px;
+    padding-left: 3rem;
     border-left-style: ridge;
-    border-left-width: 8px;
+    border-left-width: 0.8rem;
 
     display: flex;
     flex-direction: column;
@@ -151,7 +159,7 @@ figcaption{
     mix-blend-mode:luminosity;
     text-align: center;
     border-radius: 1rem;
-    color: #13293d;     
+    color: var(--dark);     
     font-size: 3rem;
     font-style: oblique;
     
@@ -176,7 +184,7 @@ figcaption{
   }
   /*Hover on the nav links will change colors*/
   .nav-header a:hover{
-    color: #13293d;
-    background-color: #fff; 
+    color: var(--dark);
+    background-color: var(--light); 
   }
 
