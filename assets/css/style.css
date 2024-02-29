@@ -217,7 +217,7 @@ figcaption{
   }
 
 
-  /*Styling for the contact me section*/  
+  /*Hover effect and styling for the contact me section*/  
 
   .contact-contents{
     margin:1rem;
@@ -237,6 +237,7 @@ figcaption{
     transition: all 0.5s ease-in-out;
   }
 
+  /*Hover effect on the work section*/
   .projectimage {
     opacity: 0.3;
     display: block;
