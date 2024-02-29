@@ -12,8 +12,7 @@ body {
     font-size: 1.75rem;
     line-height: 1.5;
     margin: 0;
-    background-color: gainsboro;
-    /* gainsboro mintcream  */
+    background-color: gainsboro;  
     color: #13293d;
 }
 
@@ -112,9 +111,7 @@ main {
 .side-container {
     padding-left: 50px;   
     padding-bottom: 50px;
-    padding-right :10px;
-    /* border-right-width: 5px;
-    border-right-style: ridge; */
+    padding-right :10px;  
     width: 300px;
     text-align: right;
     text-wrap: wrap;
@@ -177,9 +174,7 @@ figcaption{
         left : 20rem;
     }    
   }
-
-
-  /*Hover on the nav links will change color*/
+  /*Hover on the nav links will change colors*/
   .nav-header a:hover{
     color: #13293d;
     background-color: #fff; 
