@@ -137,8 +137,9 @@ main {
     border-left-width: 0.8rem;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .profile-picture{
@@ -189,3 +190,27 @@ figcaption{
     background-color: var(--light); 
   }
 
+
+ /*section that holds both images and the text we want to place over the image of Project work*/
+ .workcontent-container{
+    position: relative;
+
+  }
+
+  /* styling for the container that holds text*/
+
+  .project-contents{
+    position: absolute;
+    color :var(--dark);
+    background-color:var(--light);
+    font-size: small;
+    top:50%;    
+
+  }
+
+  .workcontent-container img {
+   width:100%;
+   padding: 0.5rem;   
+   height: 20rem;
+   background:var(--light);
+  }
