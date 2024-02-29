@@ -30,7 +30,7 @@ h6 {
 }
 
 h1 {
-    /*0.1 rem = 1 px */
+    /* 4rem = 40px (4 * 10px) */
     font-size: 4rem;
 }
 
@@ -70,6 +70,7 @@ a {
     color: #fff;
     text-decoration: underline;
     text-underline-offset: 0.5rem;   
+    /*0.1 rem = 1 px */
     padding: 2rem;
 }
 
@@ -90,11 +91,11 @@ a {
 }
 
 .side-header{
-    height: 10rem;
-    width: 10rem;
+    height: 100px;
+    width: 100px;
 }
 main {
-    padding: 5rem;/*0.1 rem = 1 px */
+    padding: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -104,15 +105,17 @@ main {
 
 .main-container{
     display: flex;
-    padding: 2rem;
+    padding: 20px;
     
 }
 
 .side-container {
-    padding-left: 5rem;   
-    padding-bottom: 5rem;
-    padding-right :1rem;    
-    width: 30rem;
+    padding-left: 50px;   
+    padding-bottom: 50px;
+    padding-right :10px;
+    /* border-right-width: 5px;
+    border-right-style: ridge; */
+    width: 300px;
     text-align: right;
     text-wrap: wrap;
 
@@ -123,9 +126,9 @@ main {
 
 
 .content-container{
-    padding-left: 3rem;
+    padding-left: 30px;
     border-left-style: ridge;
-    border-left-width: 0.8rem;
+    border-left-width: 8px;
 
     display: flex;
     flex-direction: column;
@@ -177,7 +180,7 @@ figcaption{
 
 
   /*Hover on the nav links will change color*/
-  .nav-header a:hover{
+  .nav-headers a:hover{
     color: #13293d;
     background-color: #fff; 
   }
