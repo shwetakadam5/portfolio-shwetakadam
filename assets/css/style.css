@@ -99,7 +99,8 @@ a {
 
 .side-header{
     height: 10rem;
-    width: 10rem;
+    width: 20rem;
+    text-align: right;
 }
 main {
     padding: 5rem;
