@@ -114,6 +114,7 @@ main {
 
 .main-container{
     display: flex;
+    flex-direction: row;
     padding: 2rem;
     
 }
@@ -122,7 +123,8 @@ main {
     padding-left: 5rem;   
     padding-bottom: 5rem;
     padding-right : 1rem;  
-    width: 30rem;
+     /* Incorporated post review comments to make page responsive */
+    width: 30%;
     text-align: right;
     text-wrap: wrap;
 
@@ -174,6 +176,10 @@ figcaption{
     figcaption{        
         left : 60rem;
     }
+    /* Incorporated post review comments to make page responsive */
+    .main-container{
+    flex-direction: column;
+    }
     
   }  
   
@@ -181,7 +187,12 @@ figcaption{
     figcaption{    
          top: 50rem;        
         left : 20rem;
-    }    
+    }  
+    /* Incorporated post review comments to make page responsive */
+    .main-container{
+        flex-direction: column;
+        }
+          
   }
   /*Hover on the nav links will change colors*/
   .nav-header a:hover{
